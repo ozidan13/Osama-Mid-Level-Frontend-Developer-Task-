@@ -1,0 +1,131 @@
+.product-cards-container {
+}
+
+.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 814px;
+  margin: 0 auto;
+}
+
+.product-card {
+  width: 300px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #5d4071;
+  color: white;
+  padding: 22px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-card h3 {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-card p {
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-card button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #5a7e2d;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+  background-color: #4b305e;
+  color: white;
+}
+
+.quick-view-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.modal-content img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.modal-content h3 {
+  margin: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.modal-content p {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.modal-content button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #5a7e2d;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-content button:hover {
+  background-color: #4b305e;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .product-card {
+    min-width: 332px;
+  }
+}
