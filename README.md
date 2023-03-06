@@ -1,3 +1,15 @@
+# <a href="https://www.linkedin.com/in/ozidan/" target="_blank">Osama Zinhom</a>
+<div align="center">
+    <img src="GitHub.png" height="200" />
+</div>
+<div align="center">
+    <img src="https://readme-typing-svg.herokuapp.com?color=%236FDA44&size=32&center=true&vCenter=true&width=600&height=50&lines=Hi+👋,+I'm+Osama;FrontEnd+Developer;Freelancer;Open-Source+Enthusiast" />
+</div>
+<div align="center">
+    <a href="https://www.linkedin.com/in/ozidan/"><img src="https://img.shields.io/badge/Linkedin-0077b5?style=flat&logo=linkedin" /></a>
+    <a href="https://wa.me/message/PYDSDR5GD7MVJ1"><img src="https://img.shields.io/badge/Telegram-0088cc?style=flat&logo=whatsapp" /></a>
+</div>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -7,64 +19,54 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
+### creating a page with the following details:-
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1) create an array of objects (containing 6 objects) where each object represents a product with the following properties:-
+- product_name (string, ex: "Gold Coin")
+- product_price (string, ex: "112.55")
+- product_image (string, ex: "gold-coin.png")
+- added_to_cart (boolean, ex: false)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2) create a page where there are 6 product cards displayed with all their details
 
-### `npm test`
+3) each product card contains name, price, image, add_to_cart button and quick_view button
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4) create a cart icon in the navbar, which opens a dropdown with added_to_cart products
 
-### `npm run build`
+5) the cart icon should have an indicator to the number of added_to_cart products
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6) create a quick_view modal which is opened whenever the user clicks on the quick_view button of any product
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+7) the quick_view modal has the same details displayed in the product card
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+8) adding the product to cart or removing it will affect all places where the product is displayed (product card, navbar dropdown, quick_view modal)
 
-### `npm run eject`
+9) if the product is added_to_cart, the "add to cart" button should be converted to "remove from cart"
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+10) use localStorage to store the array of products, don't use the default array mentioned in first step if there is an array in the localStorage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+11) you are only allowed to use HTML, CSS and JavaScript, but you can't use jQuery, Bootstrap, Fontawesome (you can use icons but you don't need to attach a whole library of icons), Google Fonts (you can just download and use any single font), etc..
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+12) feel free to use any ui/ux design, but make sure that your design is responsive
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+<h1 align="center">About</h1>
+:wave: Hi there, I'm Osama Zinhom, Senior Front-End Developer - UI/UX Designer. I enjoy writing about technical things
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Osama Zinhom, Studies Senior Front-End Developer - UI/UX Designer
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+My primary focus is on creating intuitive, user-friendly applications that are both easy to use and aesthetically pleasing. I'm always looking to stay ahead of the curve when it comes to developing web applications and pushing the limits of the technologies I'm working with.
 
-### Code Splitting
+I'm passionate about creating software that can improve lives and make the world a better place. In my free time, I enjoy learning new technologies, reading tech blogs, and participating in the development of open source projects.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🟢 Education :
+✅ Studies MIS & IT in SAMS
+✅ Bachelor in information Technology and business
+✅ Professional Certification in IT Support specialization from Google
 
-### Analyzing the Bundle Size
+- [ GitHub](https://github.com/ozidan13?tab=repositories).
+- [ Behance](https://www.behance.net/O_Zidan).
+- [ LinkedIn ](https://www.linkedin.com/in/ozidan/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<h1 align="center">:wave: Thanks For Reading :wave:</h1>
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
